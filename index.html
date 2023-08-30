@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Medicine Catalog</h1>
+        <input type="text" id="searchInput" placeholder="Search...">
+        <select id="filterSelect">
+            <option value="">All</option>
+            <option value="painkiller">Painkillers</option>
+            <option value="antibacterial">antibacterial</option>
+            <option value ="antiviral">antiviral</option>
+            <option value ="anesthetics">anesthetics</option>
+            <option value ="anti-allergics">anti-allergics</option>
+            <option value ="anticonvulsants">anticonvulsants</option>
+            <option value ="antifungal">antifungal</option>
+            <option value ="bloodpressure">bloodpressure</option>
+            <option value ="thyroxin">thyroxin</option>
+            
+            <!-- Add more categories as needed -->
+        </select>
+    
+
+            <!-- Add this cart section within the "medicineList" div -->
+        <div id="medicineList">
+    <!-- Medicine items will be dynamically added here -->
+        </div>
+        <div id="cart">
+            <h2>Shopping Cart / strip</h2>
+            <ul id="cartItems">
+        <!-- Cart items will be dynamically added here -->
+            </ul>
+            <p>Total: $<span id="cartTotal">0.00</span></p>
+        </div>
+        <!-- Add this section at the bottom of your HTML body -->
+        <div id="created-by">
+            <p>Created by SAKSHI BHAVIKATTI</p>
+            <p>
+             LinkedIn :https://www.linkedin.com/in/sakshi-bhavikatti-b53a79255: <a href="https://www.linkedin.com/in/sakshi-bhavikatti-b53a79255" target="https://www.linkedin.com/in/sakshi-bhavikatti-b53a79255">Your LinkedIn</a>
+            </p>
+            <p>Email :mailto:sakshibhavikatti04.com: <a href="mailto:sakshibhavikatti04.com">youremail@example.com</a></p>
+            <p> Mobile: 9380661585</p>
+        </div>
+            <!-- Medicine items will be dynamically added here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
